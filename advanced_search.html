@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="css/google.css">
+    <style>
+      label {
+        display: inline-block;
+        width: 250px;
+        font-family: Arial;
+        font-size: 10pt;
+      }
+      #sub_button{
+        border: 0;
+        border-radius: 5%;
+        float: right;
+      }
+      .classy:hover {
+        /*Credit for this box-shadow code: https://codepen.io/davidicus/pen/emgQKJ */
+        box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+        outline-color: rgba(255, 255, 255, 0);
+        outline-offset: 15px;
+        text-shadow: 1px 1px 2px #427388;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Advanced Search</h2>
+    <div class="links" style="overflow: hidden;">
+      <p id="ad_se" style="float: right;"><a href="search.html">Search</a></p>
+      <p id="img" style="float: right;"><a href="image.html">Images</a></p>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <h3>Find pages with...</h3>
+    <h4 style="padding-left: 54%;">To do this in the search box</h4>
+
+    <form class="" action="https://google.com/search">
+      <div>
+        <label for="alltext">all these words: </label>
+        <input type="text" name="as_q" value="" id="alltext" style="width: 500px; height: 25px; border: 1px solid LightGray;">
+        <label for="alltext">Type the important words: <small>tricolor rat terrier</small></label>
+      </div>
+      <br>
+      <div>
+        <label for="exact">this exact word or phrase:  </label>
+        <input type="text" name="as_epq" value="" id="exact" style="width: 500px; height: 25px; border: 1px solid LightGray;">
+        <label for="exact">Put exact words in quotes: <small>"rat terrier"</small></label>
+      </div>
+      <br>
+      <div>
+        <label for="any">any of these words: </label>
+        <input type="text" name="as_oq" value="" id="any" style="width: 500px; height: 25px; border: 1px solid LightGray;">
+        <label for="any">Type OR between all the words you want:<small> miniature OR standard</small></label>
+      </div>
+      <br>
+      <div>
+        <label for="none">none of these words: </label>
+        <input type="text" name="as_eq" value="" id="as_eq" style="width: 500px; height: 25px; border: 1px solid LightGray;">
+        <label for="none">Put a minus sign just before words you don't want: <small>-rodent, -"Jack Russell" </small></label>
+      </div>
+      <br>
+      <hr>
+      <input type="submit" class="classy" id="sub_button" value="Advanced Search" style="background-color: #4D90FE; color: white; padding: 9px; font-family: Arial; font-size: 12px; font-weight: bold;">
+    </form>
+
+  </body>
+</html>

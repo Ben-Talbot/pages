@@ -1,0 +1,156 @@
+.top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+a:link{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+.links{
+  text-align: right;
+}
+
+#img {
+  padding-right: 15px;
+}
+
+#google{
+  height: 100px;
+  padding-top: 225px;
+}
+
+#search_bar{
+  width: 500px;
+  height: 40px;
+}
+
+.search_body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 175px;
+}
+
+.buttons_div {
+  text-align: center;
+}
+
+.buttons {
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.buttons:hover {
+  border:1px solid LightGray;
+}
+
+#search_bar {
+  font-size: 13pt;
+  font-family: Arial;
+  border-radius: 25px;
+  border: 1px solid LightGray;
+  display: inline-flex;
+}
+
+input.icons i {
+  position: absolute;
+  padding-left: 20px;
+}
+
+input:focus{
+  outline: none;
+}
+
+p {
+  color: black
+  font-style: normal;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+
+h2 {
+  color: red;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+
+
+.test {
+  display: inline-block;
+  width: 40%;
+}
+
+
+
+
+
+/*
+.form {
+  width: 900px;
+}
+
+.form label {
+  display: inline-block;
+
+  float: left;
+}
+
+.form input {
+  display: inline-block;
+  text-align: left;
+  float: right;
+  size: 100;
+}
+
+
+/*
+.label {
+  float: left;
+
+}
+
+.input {
+
+}
+
+.advanced {
+  size: 1000px;
+}
+*/
+
+.right_stuff {
+  float: right;
+  margin-right: 400px;
+  margin-top: 100px;
+}
+#head {
+  float: right;
+  margin-right: 400px;
+  margin-top: 0px;
+}
+
+#important_words {
+  margin-left: 600px;
+  margin-top: 10px;
+}
+
+.left {
+  float:left;
+}
+.right {
+  float: right;
+}
+.center {
+  float:
+}
